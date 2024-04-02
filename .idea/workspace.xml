@@ -4,8 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0884aef4-2d23-4810-b0ea-3dd9845907e4" name="Changes" comment="">
+    <list default="true" id="0884aef4-2d23-4810-b0ea-3dd9845907e4" name="Changes" comment="add Supply structure">
+      <change afterPath="$PROJECT_DIR$/bank/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bank/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bank/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bank/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bank/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bank/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bank/src/main/java/com/example/bank/BankApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bank/src/main/java/com/example/bank/models/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bank/src/main/java/com/example/bank/models/Balance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bank/src/main/java/com/example/bank/repositories/AccountRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bank/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bank/src/test/java/com/example/bank/BankApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/08b78bc8-e307-4f22-9c24-1fcfce70786b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/08b78bc8-e307-4f22-9c24-1fcfce70786b.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,13 +32,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/bank" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -37,8 +53,13 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "21",
     "node.js.detected.package.eslint": "true",
@@ -63,6 +84,13 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.EurekaServerApplication">
+    <configuration name="BankApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="bank" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.bank.BankApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="eureka-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.eurekaserver.EurekaServerApplication" />
@@ -87,7 +115,7 @@
       <option name="presentableId" value="Default" />
       <updated>1711647040813</updated>
       <workItem from="1711647041835" duration="3293000" />
-      <workItem from="1712072191495" duration="3360000" />
+      <workItem from="1712072191495" duration="8826000" />
     </task>
     <task id="LOCAL-00001" summary="create storage structure">
       <option name="closed" value="true" />
@@ -97,7 +125,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711649574002</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add Supply structure">
+      <option name="closed" value="true" />
+      <created>1712075588531</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1712075588532</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,6 +141,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="create storage structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="create storage structure" />
+    <MESSAGE value="add Supply structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Supply structure" />
   </component>
 </project>

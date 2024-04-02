@@ -25,6 +25,7 @@ public class SupplyServiceImpl implements SupplyService {
 
     @Override
     public Supply updateSupply(Supply supply) {
+        System.out.println(supply.getId());
         Supply owner = getSupplyById(supply.getId());
         if (supply.getName() != null) owner.setName(supply.getName());
         owner.setUsername(supply.getUsername());
@@ -43,6 +44,6 @@ public class SupplyServiceImpl implements SupplyService {
 
     @Override
     public Supply getFirstFreeSuppliesByName(String name) {
-        return supplyRepository.getSuppliesByNameAndUsernameIsNull(name);
+        return supplyRepository.getFirstByNameAndUsernameIsNull(name);
     }
 }
