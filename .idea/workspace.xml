@@ -5,23 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0884aef4-2d23-4810-b0ea-3dd9845907e4" name="Changes" comment="add Supply structure">
-      <change afterPath="$PROJECT_DIR$/bank/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank/src/main/java/com/example/bank/BankApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank/src/main/java/com/example/bank/models/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank/src/main/java/com/example/bank/models/Balance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank/src/main/java/com/example/bank/repositories/AccountRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank/src/test/java/com/example/bank/BankApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/08b78bc8-e307-4f22-9c24-1fcfce70786b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/08b78bc8-e307-4f22-9c24-1fcfce70786b.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +22,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/bank" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -67,7 +51,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "spring.configuration.checksum": "2e1a3cf0b2647a48a63cf4fa6033c552",
+    "spring.configuration.checksum": "cb9d64397bb493f562f04a1e4b2865d5",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -83,7 +67,87 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.EurekaServerApplication">
+  <component name="RunManager" selected="JUnit.SupplyControllerTest">
+    <configuration name="SupplyControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="storage" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.storage.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.storage.controllers" />
+      <option name="MAIN_CLASS_NAME" value="com.example.storage.controllers.SupplyControllerTest" />
+      <option name="METHOD_NAME" value="updateSupplyTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SupplyControllerTest.createSupplyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="storage" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.storage.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.storage.controllers" />
+      <option name="MAIN_CLASS_NAME" value="com.example.storage.controllers.SupplyControllerTest" />
+      <option name="METHOD_NAME" value="createSupplyTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SupplyControllerTest.deleteSupplyByIdTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="storage" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.storage.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.storage.controllers" />
+      <option name="MAIN_CLASS_NAME" value="com.example.storage.controllers.SupplyControllerTest" />
+      <option name="METHOD_NAME" value="deleteSupplyByIdTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SupplyControllerTest.deleteSupplyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="storage" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.storage.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.storage.controllers" />
+      <option name="MAIN_CLASS_NAME" value="com.example.storage.controllers.SupplyControllerTest" />
+      <option name="METHOD_NAME" value="deleteSupplyTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SupplyControllerTest.updateSupplyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="storage" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.storage.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.storage.controllers" />
+      <option name="MAIN_CLASS_NAME" value="com.example.storage.controllers.SupplyControllerTest" />
+      <option name="METHOD_NAME" value="updateSupplyTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BankApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="bank" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.bank.BankApplication" />
@@ -105,6 +169,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SupplyControllerTest" />
+        <item itemvalue="JUnit.SupplyControllerTest.deleteSupplyByIdTest" />
+        <item itemvalue="JUnit.SupplyControllerTest.deleteSupplyTest" />
+        <item itemvalue="JUnit.SupplyControllerTest.updateSupplyTest" />
+        <item itemvalue="JUnit.SupplyControllerTest.createSupplyTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -115,7 +188,8 @@
       <option name="presentableId" value="Default" />
       <updated>1711647040813</updated>
       <workItem from="1711647041835" duration="3293000" />
-      <workItem from="1712072191495" duration="8826000" />
+      <workItem from="1712072191495" duration="9088000" />
+      <workItem from="1712245273170" duration="8196000" />
     </task>
     <task id="LOCAL-00001" summary="create storage structure">
       <option name="closed" value="true" />
@@ -143,5 +217,13 @@
     <MESSAGE value="create storage structure" />
     <MESSAGE value="add Supply structure" />
     <option name="LAST_COMMIT_MESSAGE" value="add Supply structure" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/OnlineStore$SupplyControllerTest_updateSupplyTest.ic" NAME="SupplyControllerTest.updateSupplyTest Coverage Results" MODIFIED="1712253108055" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.example.storage.controllers.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/OnlineStore$SupplyControllerTest.ic" NAME="SupplyControllerTest Coverage Results" MODIFIED="1712253512446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.example.storage.controllers.*</FILTER>
+    </SUITE>
   </component>
 </project>
